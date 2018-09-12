@@ -10,7 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RegistrationSystem
+namespace RegistrationSystem 
 {
     class Student : Person{
         //properties that student has
