@@ -14,7 +14,7 @@ namespace RegistrationSystem
 {
     class Student : Person{
         //properties that student has
-        private String id;
+        private string id;
         private double gpa;
 
         //constructors.
@@ -27,13 +27,13 @@ namespace RegistrationSystem
         ////lname = "";
         ////    email = "";
         ////    address = "";
-        public Student(String id, double gpa): base(String fname, String lname, String email, String address)
+        public Student(string id, double gpa, string fname, string lname, string email, string address) : base(fname, lname, email, address)
         {
 
-        }
-        {
+        }//End Student all arg Constructor.
+        
 
-        }
+        
 
 
 

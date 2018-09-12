@@ -11,27 +11,26 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace StudentRegistrationSystem
+namespace RegistrationSystem
 {
     class Person
     {
         //====== Properties ===========
-        private String fname;
-        private String lname;
-        private String email;
-        private String address;
+        private string fname;
+        private string lname;
+        private string email;
+        private string address;
 
         //======= Constructors ========
         public Person()
         {
-
             fname = "";
             lname = "";
             email = "";
             address = "";
         }
 
-        public Person(String tFn, String tLn, String tE, String tA)
+        public Person(string tFn, string tLn, string tE, string tA)
         {
             fname = tFn;
             lname = tLn;
@@ -42,36 +41,36 @@ namespace StudentRegistrationSystem
         //=========== Behaviors ==================
 
         //=== Setter & Getter Section. ===========
-        public void SetFirstName(String tFn)
+        public void SetFirstName(string tFn)
         {
             fname = tFn;
         }
-        public String GetFirstName()
+        public string GetFirstName()
         {
             return fname;
         }
-        public void SetLastName(String tLn)
+        public void SetLastName(string tLn)
         {
             lname = tLn;
         }
-        public String GetLastName()
+        public string GetLastName()
         {
             return lname;
         }
-        public void SetEmail(String tE)
+        public void SetEmail(string tE)
         {
             email = tE;
         }
-        public String GetEmail()
+        public string GetEmail()
         {
             return email;
         }
 
-        public void SetAddress(String tA)
+        public void SetAddress(string tA)
         {
             address = tA;
         }
-        public String GetAddress()
+        public string GetAddress()
         {
             return address;
         }
