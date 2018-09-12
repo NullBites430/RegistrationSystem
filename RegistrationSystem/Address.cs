@@ -1,5 +1,4 @@
 ﻿/************************************
- * 
  *  Author : Robert McGuire
  *  Description : Lab 2 Business Classes
  *  Course : C# 2 Programming 

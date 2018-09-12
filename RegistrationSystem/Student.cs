@@ -2,7 +2,7 @@
  *  Author : Robert McGuire
  *  Description : Lab 3 Inheritance
  *  Course : C# 2 Programming 
- *  Student class "Child-Class"
+ *  Student class "Child-Class" extends Person
  * **************************************/
 using System;
 using System.Collections.Generic;
@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace RegistrationSystem 
 {
+    //Below we have some inheritance going on here.
     class Student : Person{
         //properties that student has
         private string id;

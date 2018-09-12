@@ -1,5 +1,4 @@
 ﻿/************************************
- * 
  *  Author : Robert McGuire
  *  Description : Lab 3 Inheritance
  *  Course : C# 2 Programming 
