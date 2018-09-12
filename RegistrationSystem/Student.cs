@@ -27,7 +27,13 @@ namespace RegistrationSystem
         ////lname = "";
         ////    email = "";
         ////    address = "";
-        public Student(String id, double gpa): base(fname, lname, email, address)
+        public Student(String id, double gpa): base(String fname, String lname, String email, String address)
+        {
+
+        }
+        {
+
+        }
 
 
 
