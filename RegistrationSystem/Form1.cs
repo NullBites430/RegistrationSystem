@@ -1,4 +1,10 @@
-﻿using System;
+﻿/************************************
+ *  Author : Robert McGuire
+ *  Description : Lab 2 Business Classes
+ *  Course : C# 2 Programming 
+ *  Form 1
+ * **************************************/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
