@@ -16,9 +16,9 @@ namespace RegistrationSystem
     class Address
     {
         //Properties 
-        private String streetName;
-        private String city;
-        private String state;
+        private string streetName;
+        private string city;
+        private string state;
         private int zip;
 
 
@@ -32,7 +32,7 @@ namespace RegistrationSystem
         }
 
         //-------------All Argument Constructor-----//
-        public Address(String tempStreetName, String tempCity, String tempState, int tempZip)
+        public Address(string tempStreetName, string tempCity, string tempState, int tempZip)
         {
             streetName = tempStreetName;
             city = tempCity;
@@ -42,35 +42,35 @@ namespace RegistrationSystem
         //Behaviors 
 
         //-------------- Street ------------------//
-        public void SetStreet(String tempStreetName)
+        public void SetStreet(string tempStreetName)
         {
             streetName = tempStreetName;
         }//End Set
 
-        public String GetStreet()
+        public string GetStreet()
         {
             return streetName;
         }//End Get
 
         //--------------- City -------------------//
-        public void SetCity(String tempCity)
+        public void SetCity(string tempCity)
         {
             city = tempCity;
         }//End Set
 
-        public String GetCity()
+        public string GetCity()
         {
             return city;
         }//End Get
 
         //-------------- State ---------------------//
 
-        public void SetState(String tempState)
+        public void SetState(string tempState)
         {
             state = tempState;
         }//End Set
 
-        public String GetState()
+        public string GetState()
         {
             return state;
         }//End Get

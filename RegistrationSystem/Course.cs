@@ -15,9 +15,9 @@ namespace RegistrationSystem
     class Course
     {
         //Properties
-        private String courseID;
-        private String courseName;
-        private String description;
+        private string courseID;
+        private string courseName;
+        private string description;
         private double creditHours;
 
         //Constructors
@@ -30,7 +30,7 @@ namespace RegistrationSystem
             creditHours = 0.0;
         }//End Default
 
-        public Course(String tempCourseID, String tempCourseName, String tempDescription, double tempCreditHours)
+        public Course(string tempCourseID, string tempCourseName, string tempDescription, double tempCreditHours)
         {
             courseID = tempCourseID;
             courseName = tempCourseName;
@@ -39,31 +39,31 @@ namespace RegistrationSystem
         }//End All Args
 
         //Behaviors
-        public void SetCourseID(String tempCourseID)
+        public void SetCourseID(string tempCourseID)
         {
             courseID = tempCourseID;
         }
-        public String GetCourseID()
+        public string GetCourseID()
         {
             return courseID;
         }
 
-        public void SetCourseName(String tempCourseName)
+        public void SetCourseName(string tempCourseName)
         {
             courseName = tempCourseName;
         }
 
-        public String GetCourseName()
+        public string GetCourseName()
         {
             return courseName;
         }
 
-        public void SetCourseDescription(String tempDescription)
+        public void SetCourseDescription(string tempDescription)
         {
             description = tempDescription;
         }
 
-        public String GetDescription()
+        public string GetDescription()
         {
             return description;
         }

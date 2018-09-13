@@ -15,38 +15,38 @@ namespace RegistrationSystem
     class Section
     {
         //Properties
-        private String _crn;
-        private String _courseID;
-        private String _timeDays;
-        private String _roomNo;
+        private string _crn;
+        private string _courseID;
+        private string _timeDays;
+        private string _roomNo;
         private int _instructor;
 
         //Constructors
         public Section()
         {
             /************************
-             * String Crn,
-             * String CourseID, 
-             * String TimeDays, 
-             * String RoomNo, 
+             * string Crn,
+             * string CourseID, 
+             * string TimeDays, 
+             * string RoomNo, 
              * Int Instructor.
              * 
              * 
              * 
              ***********************/
-            String _crn = "";
-            String _courseID = "";
-            String _timeDays = "";
-            String _roomNo = "";
+            string _crn = "";
+            string _courseID = "";
+            string _timeDays = "";
+            string _roomNo = "";
             int _instructor = 0;
         }
-        public Section(String tempCrn, String tempCourseID, String tempTimeDays, String tempRoomNo, int tempInstructor)
+        public Section(string tempCrn, string tempCourseID, string tempTimeDays, string tempRoomNo, int tempInstructor)
         {
             /************************
-             * String Crn,
-             * String CourseID, 
-             * String TimeDays, 
-             * String RoomNo, 
+             * string Crn,
+             * string CourseID, 
+             * string TimeDays, 
+             * string RoomNo, 
              * Int Instructor.
              * 
              * 
@@ -62,35 +62,35 @@ namespace RegistrationSystem
 
         //Behaviors
         //Setters and Getters. 
-        public void SetCRN(String tempCrn)
+        public void SetCRN(string tempCrn)
         {
             _crn = tempCrn;
         }
-        public String GetCRN()
+        public string GetCRN()
         {
             return _crn;
         }
-        public void SetCourseID(String tempCourseID)
+        public void SetCourseID(string tempCourseID)
         {
             _courseID = tempCourseID;
         }
-        public String GetCourseID()
+        public string GetCourseID()
         {
             return _courseID;
         }
-        public void SetTimeDays(String tempTimeDays)
+        public void SetTimeDays(string tempTimeDays)
         {
             _timeDays = tempTimeDays;
         }
-        public String GetTimeDays()
+        public string GetTimeDays()
         {
             return _timeDays;
         }
-        public void SetRoomNo(String tempRoomNo)
+        public void SetRoomNo(string tempRoomNo)
         {
             _roomNo = tempRoomNo;
         }
-        public String GetRoomNo()
+        public string GetRoomNo()
         {
             return _roomNo;
         }
