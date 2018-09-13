@@ -28,29 +28,35 @@ namespace RegistrationSystem
         ////lname = "";
         ////    email = "";
         ////    address = "";
-        public Student(string id, double gpa, string fname, string lname, string email, string address) : base(fname, lname, email, address)
+        public Student(string tempId, double tempGpa, string fname, string lname, string email, string address) : base(fname, lname, email, address)
         {
+            id = tempId;
+            gpa = tempGpa;
+            fname = fname;
+            lname = lname;
+            email = email;
+            address = address;
 
         }//End Student all arg Constructor.
         
 
+        //========== id ===================
+        public void SetStudentId(string tempId)
+        {
+            id = tempId;
+        }
+
+        public string GetStudentId() { return id; }
+
+        //=========== gpa ==================
+        public void SetGpa(double tempGpa)
+        {
+            gpa = tempGpa;
+        }
+
+        public double GetGpa() { return gpa; }
+
         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     }//End Class
 }//End Namespace
