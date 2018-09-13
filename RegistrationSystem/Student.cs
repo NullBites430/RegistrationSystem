@@ -56,7 +56,20 @@ namespace RegistrationSystem
 
         public double GetGpa() { return gpa; }
 
-        
+        public void Display()
+
+        {
+            Console.WriteLine("*****************************");
+            Console.WriteLine("**** Student Display ********");
+            Console.WriteLine("***                  ********");
+            Console.WriteLine("ID is:" + id);
+            Console.WriteLine("Gpa is : " + gpa);
+            Console.WriteLine("First Name is : " + fname);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+        }
 
     }//End Class
 }//End Namespace

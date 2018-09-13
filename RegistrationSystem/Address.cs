@@ -88,7 +88,9 @@ namespace RegistrationSystem
 
         public void Display()
         {
-            Console.WriteLine("========= Address Class ===========");
+            Console.WriteLine("*****************************");
+            Console.WriteLine("**** Address Display ********");
+            Console.WriteLine("***                   *******");
             Console.WriteLine("Street: " + streetName);
             Console.WriteLine("City: " + city);
             Console.WriteLine("State: " + state);

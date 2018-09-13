@@ -79,11 +79,11 @@ namespace RegistrationSystem
         {
             Console.WriteLine("******************************");
             Console.WriteLine("****  Person Display  ********");
-            Console.WriteLine("                              ");
-            Console.WriteLine("First Name is: ");//Add the method or value for the name.
-            Console.WriteLine("Last Name is: ");//Add the method or value for the name.
-            Console.WriteLine("Email is: ");//Add the method or value for the name.
-            Console.WriteLine("Address is : ");//Add the method or value for the name.
+            Console.WriteLine("***                    *******");
+            Console.WriteLine("First Name is: "+ fname);//Add the method or value for the name.
+            Console.WriteLine("Last Name is: "+ lname);//Add the method or value for the name.
+            Console.WriteLine("Email is: "+ email);//Add the method or value for the name.
+            Console.WriteLine("Address is : "+address);//Add the method or value for the name.
         }//End display
 
     }//End Class
