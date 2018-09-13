@@ -80,9 +80,6 @@ namespace RegistrationSystem
 
         public void Display()
         {
-            Console.WriteLine("*****************************");
-            Console.WriteLine("**** Course Display *********");
-            Console.WriteLine("***                  ********");
             Console.WriteLine("Course Id is: " + courseID);
             Console.WriteLine("Course name is: " + courseName);
             Console.WriteLine("The course description is: " + description);

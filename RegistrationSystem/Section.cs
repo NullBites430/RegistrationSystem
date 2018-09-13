@@ -106,10 +106,7 @@ namespace RegistrationSystem
 
         public void Display()
         {
-            Console.WriteLine("*****************************");
-            Console.WriteLine("**** Section Display ********");
-            Console.WriteLine("***                  ********");
-            Console.WriteLine("The students course registration number is : " + _crn);
+           Console.WriteLine("The students course registration number is : " + _crn);
             Console.WriteLine("The course id is : " + _courseID);
             Console.WriteLine("The meeting time is : " + _timeDays);
             Console.WriteLine("The room that class is held at is : " + _roomNo);

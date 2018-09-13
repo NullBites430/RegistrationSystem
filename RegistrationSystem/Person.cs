@@ -77,9 +77,6 @@ namespace RegistrationSystem
 
         public void Display()
         {
-            Console.WriteLine("******************************");
-            Console.WriteLine("****  Person Display  ********");
-            Console.WriteLine("***                    *******");
             Console.WriteLine("First Name is: "+ fname);//Add the method or value for the name.
             Console.WriteLine("Last Name is: "+ lname);//Add the method or value for the name.
             Console.WriteLine("Email is: "+ email);//Add the method or value for the name.
