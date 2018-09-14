@@ -20,7 +20,29 @@ namespace RegistrationSystem
         public Section[] sections = new Section[10];
         
         //Constructor
-        public Schedule()
+        public Schedule() { }
 
+        //Behaviors
+        public void AddSection(Section section)
+        {
+            //Add the section to the Section Array.
+            sections[count] = section;
+            count++;
+        }//End AddSection
+
+        public void Display()
+        {
+            
+            Console.WriteLine("The Crn  is: " +_crn);
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            //string _crn = "";
+            //string _courseID = "";
+            //string _timeDays = "";
+            //string _roomNo = "";
+            //int _instructor = 0;
+        }
     }//End Class
 }//END namespace

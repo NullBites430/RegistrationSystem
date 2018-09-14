@@ -64,5 +64,10 @@ namespace RegistrationSystem
             i2 = new Instructor("CTC-123", "F-1149", "Ron", "Enz", "email@email.com", new Address("179 west 3rd. Street", "Clifton", "NJ", 07011));
             i2.Display();
         }
+
+        private void ScheduleBtnClicked_Click(object sender, EventArgs e)
+        {
+
+        }
     }//End Class Form1
  }//End Namespace
