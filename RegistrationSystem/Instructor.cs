@@ -27,7 +27,7 @@ namespace RegistrationSystem
             office = "";
         }
 
-        public Instructor(string id, string office, string fname, string lname, string email, Address a) : base(fname, lname, email, address) 
+        public Instructor(string id, string office, string fname, string lname, string email, Address a) : base(fname, lname, email, a) 
         {
             this.id = id;
             this.office = office;

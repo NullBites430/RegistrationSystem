@@ -92,7 +92,7 @@ namespace RegistrationSystem
             Console.WriteLine("City: " + city);
             Console.WriteLine("State: " + state);
             Console.WriteLine("ZipCode: " + zip);
-        }
+        }//End Display
     }//End Class
 }//End Namespace
 

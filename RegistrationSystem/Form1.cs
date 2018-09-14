@@ -26,7 +26,7 @@ namespace RegistrationSystem
         private void AddressBtnClicked_Click(object sender, EventArgs e)
         {
             Address a1;
-            a1 = new Address("StreetName-0032", "City-87", "State-098", 30114);
+            a1 = new Address("StreetName-0032", "City-87", "State-098", 30114);//Just For testing. 
             a1.Display();
         }//End AddressBtn Cicked
 
@@ -61,7 +61,7 @@ namespace RegistrationSystem
         private void InstructorBtnClicked_Click(object sender, EventArgs e)
         {
             Instructor i2;
-            i2 = new Instructor("CTC-123", "F-1149", "Ron", "Enz", "email@email.com", "This is the address");
+            i2 = new Instructor("CTC-123", "F-1149", "Ron", "Enz", "email@email.com", new Address("179 west 3rd. Street", "Clifton", "NJ", 07011));
             i2.Display();
         }
     }//End Class Form1
