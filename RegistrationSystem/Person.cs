@@ -18,23 +18,18 @@ namespace RegistrationSystem
         private string fname;
         private string lname;
         private string email;
-        private string address;
-
+        //private string address;
+        public Address a1 = new Address();
         //======= Constructors ========
-        public Person()
-        {
-            fname = "";
-            lname = "";
-            email = "";
-            address = "";
-        }
+        public Person(){  }//<--- Default
 
-        public Person(string tFn, string tLn, string tE, string tA)
+        public Person(string tFn, string tLn, string tE, Address a)//<-- Accepting an Object.
         {
             fname = tFn;
             lname = tLn;
             email = tE;
-            address = tA;
+            a1 = a;
+            
         }//====== End Constructor Section.======== 
 
         //=========== Behaviors ==================
@@ -65,13 +60,13 @@ namespace RegistrationSystem
             return email;
         }
 
-        public void SetAddress(string tA)
+        public void SetAddress(Address a)
         {
-            address = tA;
+            a1 = a;
         }
-        public string GetAddress()
+        public Address GetAddress()
         {
-            return address;
+            return a1;
         }
         //===== End Setter & Getter Section =====
 
@@ -80,7 +75,7 @@ namespace RegistrationSystem
             Console.WriteLine("First Name is: "+ fname);//Add the method or value for the name.
             Console.WriteLine("Last Name is: "+ lname);//Add the method or value for the name.
             Console.WriteLine("Email is: "+ email);//Add the method or value for the name.
-            Console.WriteLine("Address is : "+address);//Add the method or value for the name.
+            a1.Display();//Calls the Address Object's Display Method.
         }//End display
 
     }//End Class

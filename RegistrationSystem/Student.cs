@@ -28,14 +28,22 @@ namespace RegistrationSystem
         ////lname = "";
         ////    email = "";
         ////    address = "";
-        public Student(string tempId, double tempGpa, string fname, string lname, string email, string address) : base(fname, lname, email, address)
+        public Student(string tempId, double tempGpa, string fname, string lname, string email, Address a) : base(fname, lname, email, a)
         {
             id = tempId;
             gpa = tempGpa;
+#pragma warning disable CS1717 // Assignment made to same variable
             fname = fname;
+#pragma warning restore CS1717 // Assignment made to same variable
+#pragma warning disable CS1717 // Assignment made to same variable
             lname = lname;
+#pragma warning restore CS1717 // Assignment made to same variable
+#pragma warning disable CS1717 // Assignment made to same variable
             email = email;
-            address = address;
+#pragma warning restore CS1717 // Assignment made to same variable
+#pragma warning disable CS1717 // Assignment made to same variable
+            a1 = a;
+#pragma warning restore CS1717 // Assignment made to same variable
 
         }//End Student all arg Constructor.
         

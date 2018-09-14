@@ -33,6 +33,7 @@
             this.SectionBtnClicked = new System.Windows.Forms.Button();
             this.PersonBtnClicked = new System.Windows.Forms.Button();
             this.StudentBtnClicked = new System.Windows.Forms.Button();
+            this.InstructorBtnClicked = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // AddressBtnClicked
@@ -90,11 +91,23 @@
             this.StudentBtnClicked.UseVisualStyleBackColor = true;
             this.StudentBtnClicked.Click += new System.EventHandler(this.StudentBtnClicked_Click);
             // 
+            // InstructorBtnClicked
+            // 
+            this.InstructorBtnClicked.AutoSize = true;
+            this.InstructorBtnClicked.Location = new System.Drawing.Point(102, 73);
+            this.InstructorBtnClicked.Name = "InstructorBtnClicked";
+            this.InstructorBtnClicked.Size = new System.Drawing.Size(85, 23);
+            this.InstructorBtnClicked.TabIndex = 5;
+            this.InstructorBtnClicked.Text = "Test Instructor";
+            this.InstructorBtnClicked.UseVisualStyleBackColor = true;
+            this.InstructorBtnClicked.Click += new System.EventHandler(this.InstructorBtnClicked_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(597, 187);
+            this.Controls.Add(this.InstructorBtnClicked);
             this.Controls.Add(this.StudentBtnClicked);
             this.Controls.Add(this.PersonBtnClicked);
             this.Controls.Add(this.SectionBtnClicked);
@@ -115,6 +128,7 @@
         private System.Windows.Forms.Button SectionBtnClicked;
         private System.Windows.Forms.Button PersonBtnClicked;
         private System.Windows.Forms.Button StudentBtnClicked;
+        private System.Windows.Forms.Button InstructorBtnClicked;
     }
 }
 

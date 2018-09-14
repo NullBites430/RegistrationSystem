@@ -47,15 +47,22 @@ namespace RegistrationSystem
         private void PersonBtnClicked_Click(object sender, EventArgs e)
         {
             Person p1;
-            p1 = new Person("Rob", "Mac", "email@email.com", "Hood Street..");
+            p1 = new Person("Rob", "Mac", "email@email.com", new Address("179 west 3rd. Street","Clifton", "NJ", 07011));
             p1.Display();
         }//End Person Btn Clicked
 
         private void StudentBtnClicked_Click(object sender, EventArgs e)
         {
             Student stu1;
-            stu1 = new Student("CTC-123", 3.0, "robert", "McGuire", "Email@email.com", "Hood Row..");
+            stu1 = new Student("CTC-123", 3.0, "robert", "McGuire", "Email@email.com", new Address("179 west 3rd. Street", "Clifton", "NJ", 07011));
             stu1.Display();
         }//End Stdent Btn Clicked
+
+        private void InstructorBtnClicked_Click(object sender, EventArgs e)
+        {
+            Instructor i2;
+            i2 = new Instructor("CTC-123", "F-1149", "Ron", "Enz", "email@email.com", "This is the address");
+            i2.Display();
+        }
     }//End Class Form1
  }//End Namespace
