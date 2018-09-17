@@ -35,7 +35,7 @@ namespace RegistrationSystem
 
 
             //foreach(type identifier in arrayName)
-            foreach (Section s1 in sections[count])
+            foreach (Section s1 in sections[count])//this error...
             {
                 s1.Display();
             }
