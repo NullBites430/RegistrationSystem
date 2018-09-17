@@ -106,7 +106,7 @@
             // ScheduleBtnClicked
             // 
             this.ScheduleBtnClicked.AutoSize = true;
-            this.ScheduleBtnClicked.Location = new System.Drawing.Point(186, 72);
+            this.ScheduleBtnClicked.Location = new System.Drawing.Point(193, 73);
             this.ScheduleBtnClicked.Name = "ScheduleBtnClicked";
             this.ScheduleBtnClicked.Size = new System.Drawing.Size(86, 23);
             this.ScheduleBtnClicked.TabIndex = 6;

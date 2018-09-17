@@ -67,7 +67,11 @@ namespace RegistrationSystem
 
         private void ScheduleBtnClicked_Click(object sender, EventArgs e)
         {
-
+           // string tempCrn, string tempCourseID, string tempTimeDays, string tempRoomNo, int tempInstructor)
+            Schedule schedule1;
+            schedule1 = new Schedule();
+            schedule1.AddSection(new Section("crn","courseid", "timedays", "roomnumber", 100));
+            schedule1.Display();
         }
     }//End Class Form1
  }//End Namespace

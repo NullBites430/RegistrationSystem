@@ -23,26 +23,23 @@ namespace RegistrationSystem
         public Schedule() { }
 
         //Behaviors
-        public void AddSection(Section section)
+        public void AddSection(Section s)
         {
             //Add the section to the Section Array.
-            sections[count] = section;
+            sections[count] = s;
             count++;
         }//End AddSection
 
         public void Display()
         {
+
+
+            //foreach(type identifier in arrayName)
+            foreach (Section s1 in sections[count])
+            {
+                s1.Display();
+            }
             
-            Console.WriteLine("The Crn  is: " +_crn);
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            Console.WriteLine("");
-            //string _crn = "";
-            //string _courseID = "";
-            //string _timeDays = "";
-            //string _roomNo = "";
-            //int _instructor = 0;
-        }
+        }//End Schedule Display.
     }//End Class
 }//END namespace
