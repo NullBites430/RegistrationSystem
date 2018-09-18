@@ -35,11 +35,24 @@ namespace RegistrationSystem
 
 
             //foreach(type identifier in arrayName)
-            foreach (Section s1 in sections[count])//this error...
-            {
-                s1.Display();
+
+            //foreach (Section s1 in sections[count])//this error...
+            //{
+            //   s1.Display();
+            //}
+
+            for (int counter = 0;counter<sections.Length; counter++) {
+
+                s1
             }
-            
+
+
+
+
+
+
+
+
         }//End Schedule Display.
     }//End Class
 }//END namespace
